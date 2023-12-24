@@ -45,7 +45,7 @@ def add_logo(image_path, height='50px'):
 
 # Sayfa yapısını oluşturmak için bir sayfa yöneticisi yapısı kullanacağız.
 def Sales_Rank_Analyses():
-    add_logo("https://facts.net/wp-content/uploads/2023/09/14-surprising-facts-about-amazon-1695565756.jpeg",'50px') 
+    add_logo("https://facts.net/wp-content/uploads/2023/09/14-surprising-facts-about-amazon-1695565756.jpeg",'90px') 
     st.title("Sales Rank Analyses")
     
      # Filtrelenmiş veri çerçevesini oluşturun.
@@ -178,7 +178,7 @@ By increasing the number of products in underrepresented categories, a differenc
     
 def Product_Review_Analyses():
     # Logo ekleme fonksiyonu
-    add_logo("https://facts.net/wp-content/uploads/2023/09/14-surprising-facts-about-amazon-1695565756.jpeg", '40px') 
+    add_logo("https://facts.net/wp-content/uploads/2023/09/14-surprising-facts-about-amazon-1695565756.jpeg", '90px') 
     st.title("Product Review Analysis")
      
     # Sidebar'da bir slider oluşturun ve değeri user_input_slider değişkenine atayın
@@ -244,7 +244,7 @@ def Product_Review_Analyses():
     
 
 def Price_Analyses():
-    add_logo("https://facts.net/wp-content/uploads/2023/09/14-surprising-facts-about-amazon-1695565756.jpeg",'60px') 
+    add_logo("https://facts.net/wp-content/uploads/2023/09/14-surprising-facts-about-amazon-1695565756.jpeg",'90px') 
     st.title("Price Analysis")
  
    # Fiyat aralıklarını ve etiketleri belirle
@@ -348,7 +348,7 @@ def Price_Analyses():
     st.write("Generall Analyses:When looking at the entire top seller data, it has been observed that sellers are most successful with products in the 0-50 dollar range.")
 
 def Buy_Box_Price_Analyses():
-    add_logo("https://facts.net/wp-content/uploads/2023/09/14-surprising-facts-about-amazon-1695565756.jpeg",'40px') 
+    add_logo("https://facts.net/wp-content/uploads/2023/09/14-surprising-facts-about-amazon-1695565756.jpeg",'90px') 
     st.title("Buy Box Price Analysis")
     
     # Veri filtreleme
@@ -425,7 +425,7 @@ def Other_Related_Features_Analyses ():
     """, unsafe_allow_html=True)
     
 def Interactions_of_Features_Analyses():
-    add_logo("https://facts.net/wp-content/uploads/2023/09/14-surprising-facts-about-amazon-1695565756.jpeg",'40px') 
+    add_logo("https://facts.net/wp-content/uploads/2023/09/14-surprising-facts-about-amazon-1695565756.jpeg",'90px') 
     st.title("Interactions of Features")
      # "Home & Kitchen" ve "Tools & Home Improvement" kategorilerini filtrele
     home_kitchen_df = df[df['Categories: Root'] == 'Home & Kitchen']
